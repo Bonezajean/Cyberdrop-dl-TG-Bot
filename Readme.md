@@ -19,8 +19,8 @@ This bot allows users to download files from CyberDrop links and upload them to 
 
 ### 1. Clone the Repository
 ```
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/Bonezajean/Cyberdrop-dl-TG-Bot.git
+cd Cyberdrop-dl-TG-Bot
 ```
 
 ### 2. Create `credentials.json`
@@ -74,3 +74,38 @@ The bot will download each folder and upload the files to the chat.
 
 ### Handling Renaming
 After downloads are complete, the bot will ask if you want to rename the files. Respond with `yes` to provide a new base name for the files or `no` to keep the original names.
+
+
+for thsoe that uses google colab use it like this :
+
+
+```
+!git clone https://github.com/Bonezajean/Cyberdrop-dl-TG-Bot.git
+%cd Cyberdrop-dl-TG-Bot
+
+import json
+
+# Replace these values with your own
+API_ID = 123456  # @param {type: "integer"}
+API_HASH = "your_api_hash_here"  # @param {type: "string"}
+BOT_TOKEN = "your_bot_token_here"  # @param {type: "string"}
+USER_ID = 12345678  # @param {type: "integer"}
+DUMP_ID = 987654321  # @param {type: "integer"}
+
+# Create the credentials dictionary
+credentials = {
+    "API_ID": str(API_ID),
+    "API_HASH": API_HASH,
+    "BOT_TOKEN": BOT_TOKEN,
+    "USER_ID": str(USER_ID),
+    "DUMP_ID": str(DUMP_ID)
+}
+
+# Save to a credentials.json file
+with open("credentials.json", "w") as json_file:
+    json.dump(credentials, json_file, indent=4)
+
+!pip install -r requirements.txt
+!python main.py
+
+```
