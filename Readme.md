@@ -73,10 +73,10 @@ https://cyberdrop.me/anotherfolder
 The bot will download each folder and upload the files to the chat.
 
 ### Handling Renaming
-After downloads are complete, the bot will ask if you want to rename the files. Respond with `yes` to provide a new base name for the files or `no` to keep the original names.
+After you complete the downloads, the bot will ask if you want to rename the files. Respond with `yes` to provide a new base name for the files or `no` to keep the original names.
 
 
-for thsoe that uses google colab use it like this :
+for those who uses google colab use it like this :
 
 
 ```
