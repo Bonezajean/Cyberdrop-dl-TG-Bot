@@ -1,7 +1,6 @@
 pyrogram
 tgcrypto
 nest_asyncio
-humanize
 moviepy
 PyYAML
-cyberdrop-dl-patched==5.4.69
+cyberdrop-dl-patched
