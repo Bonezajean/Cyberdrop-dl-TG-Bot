@@ -54,15 +54,15 @@ sudo chmod 777 /teamspace/studios/
 To start the bot, run the main Python script:
 
 ```
-python bot.py
+python main.py
 ```
 
 ## Usage
 
 ### Telegram Commands
-- \`/start\`: Start the bot and receive a welcome message.
-- \`/upload <URL>\`: Provide one or more CyberDrop URLs (each on a new line). The bot will download, optionally rename, and upload the files to the specified chat.
-- \`/help\`: Display help information and available commands.
+-`/start`: Start the bot and receive a welcome message.
+- `/upload <URL>`: Provide one or more CyberDrop URLs (each on a new line). The bot will download, optionally rename, and upload the files to the specified chat.
+- `/help`: Display help information and available commands.
 
 ### Example
 ```
@@ -73,4 +73,4 @@ https://cyberdrop.me/anotherfolder
 The bot will download each folder and upload the files to the chat.
 
 ### Handling Renaming
-After downloads are complete, the bot will ask if you want to rename the files. Respond with "yes" to provide a new base name for the files or "no" to keep the original names.
+After downloads are complete, the bot will ask if you want to rename the files. Respond with `yes` to provide a new base name for the files or `no` to keep the original names.
