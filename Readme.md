@@ -44,10 +44,10 @@ pip install -r requirements.txt
 ```
 
 ### 4. Set Permissions (if required)
-If you're working in a restricted environment (such as a cloud server or Colab), you may need to adjust file permissions for certain directories. You can set permissions using:
+If you're working in a restricted environment (such as a cloud server like lightning.ai ), you may need to adjust file permissions for certain directories. You can set permissions using:
 
 ```
-sudo chmod 777 /teamspace/studios/
+sudo chmod 777 /path/to/directory
 ```
 
 ### 5. Run the Bot
