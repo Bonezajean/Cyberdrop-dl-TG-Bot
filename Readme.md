@@ -18,10 +18,10 @@ This bot allows users to download files from CyberDrop links and upload them to 
 ## Installation
 
 ### 1. Clone the Repository
-\`\`\`bash
+'
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
-\`\`\`
+'
 
 ### 2. Create `credentials.json`
 In the root of the project, create a file called `credentials.json` with your bot’s credentials:
