@@ -18,15 +18,15 @@ This bot allows users to download files from CyberDrop links and upload them to 
 ## Installation
 
 ### 1. Clone the Repository
-'
+```
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
-'
+```
 
 ### 2. Create `credentials.json`
 In the root of the project, create a file called `credentials.json` with your bot’s credentials:
 
-\`\`\`json
+```
 {
     "API_ID": "YOUR_API_ID",
     "API_HASH": "YOUR_API_HASH",
@@ -34,28 +34,28 @@ In the root of the project, create a file called `credentials.json` with your bo
     "USER_ID": "YOUR_USER_ID",
     "DUMP_ID": "YOUR_DUMP_ID"
 }
-\`\`\`
+```
 
 ### 3. Install Dependencies
 You can install the required dependencies with the following command:
 
-\`\`\`bash
+```
 pip install -r requirements.txt
-\`\`\`
+```
 
 ### 4. Set Permissions (if required)
 If you're working in a restricted environment (such as a cloud server or Colab), you may need to adjust file permissions for certain directories. You can set permissions using:
 
-\`\`\`bash
+```
 sudo chmod 777 /teamspace/studios/
-\`\`\`
+```
 
 ### 5. Run the Bot
 To start the bot, run the main Python script:
 
-\`\`\`bash
+```
 python bot.py
-\`\`\`
+```
 
 ## Usage
 
@@ -65,11 +65,11 @@ python bot.py
 - \`/help\`: Display help information and available commands.
 
 ### Example
-\`\`\`text
+```
 /upload
 https://cyberdrop.me/somefolder
 https://cyberdrop.me/anotherfolder
-\`\`\`
+```
 The bot will download each folder and upload the files to the chat.
 
 ### Handling Renaming
